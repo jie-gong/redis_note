@@ -1,0 +1,13 @@
+spring:
+  #  mvc:
+  #    static-path-pattern: /static/**
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3306/boot_user?characterEncoding=UTF8&autoReconnect=true&useSSL=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  #整合mybatis
+  #配置mybatis
+
+mybatis-plus:
+  mapper-locations: classpath:com/gong_redis/mapper/xml/*.xml
